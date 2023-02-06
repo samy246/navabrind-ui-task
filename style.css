@@ -1,0 +1,319 @@
+/* .external {
+   width: 600px;
+   height: 400px;
+  background-color: aliceblue;
+  position: relative;
+  top: 0;
+  left: 0;
+  }
+  .middle {
+    background-color: aliceblue;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .internal {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+
+background-color:blue;
+border-radius:10px;
+  } */
+
+  /* .parent{
+    display: flex;
+
+    height: 400px;
+    width: 400px;
+    align-items: center; 
+    justify-content: center;  
+    border: 2px solid red;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    background: cyan;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.bg{
+    display: flex;
+    justify-content: center;
+  
+} */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.parent_div {
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+.child_div {
+    /* display: flex; */
+    background-color:white;
+    height: 55vh;
+    /* width: 46%; */
+    border-radius: 20px;
+    border: 2 px solid white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+#music{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#child_divtitle{
+    text-align: center;
+    padding: 10px;
+}
+
+#content{
+    /* text-align: center;
+    font-size: 20px; */
+    /* min-width: 0; */
+    /* white-space: initial; */
+    /* overflow-wrap: break-word; */
+    /* display:flex ; */
+}
+.text{
+    font-size: 22px; 
+   
+    text-align: center;
+    width: 20em;
+    opacity: 0.5;
+
+}
+
+#price{
+    border-radius: 15px;
+  background: aliceblue;
+  padding: 20px; 
+  width: 300px;
+  height: 55px;  
+ margin: auto;
+
+
+}
+
+#price{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    /* flex-gap: 10px; */
+}
+
+#pricetag{
+    display: grid;
+    text-align: center;
+}
+
+ #changeplan{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+#anplan{
+    font-weight: bold;
+}
+
+#circle{
+    background: lightblue;
+    padding:15px;
+    border-radius: 50%;
+}
+#circle{
+opacity: 0.5;
+}
+
+
+.button {
+    background-color: #3b43d6; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+    font-weight: bold;
+  }
+
+  #proceed{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+   
+  }
+
+  #cancelorder{
+    text-align: center;
+    opacity: 0.5;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  #anplanrate{
+    opacity: 0.5;
+    font-size: 19px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .child_div {
+     height: 70vh;
+    }
+  }
+  @media only screen and (max-width: 1440px) {
+    .child_div {
+     height: 70vh;
+    }
+  }
+  @media only screen and (max-width: 1600px) {
+    .child_div {
+     height: 70vh;
+    }
+  }
+  @media only screen and (max-width: 1920px) {
+    .child_div {
+     height: 62vh;
+    }
+  }
+
+  @media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    .child_div {
+        height: 75vh;
+       }
+/* Styles */
+}
+/* Smartphones (landscape) ----------- */
+/* @media only screen
+and (min-width : 321px) {
+
+.child_div {
+    height: 70vh;
+   }
+} */
+
+  /* @media only screen and (max-width: 1366px) {
+    .child_div {
+     height: 70vh;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .child_div {
+     height: 65vh;
+    }
+  }
+
+  @media only screen and (max-width: 1600px) {
+    .child_div {
+     height: 70vh;
+    }
+  }
+
+  @media only screen and (max-width: 1920px) {
+    .child_div {
+     height: 65vh;
+    }
+  }
+  @media only screen and (max-width: 1440px) {
+    .child_div {
+     height: 70vh;
+    }
+  } */
+
+  /* For Desktop View */
+
+   
+  /* For Tablet View */
+  /* @media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .gfg-div {
+      width: 400px;
+      height: 400px;
+      background-color: orange;
+      color: black;
+    }
+  } */
+   
+  /* For Mobile Portrait View */
+  /* @media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+    .gfg-div {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      color: #fff;
+    }
+  } */
+   
+  /* For Mobile Landscape View */
+  /* @media screen and (max-device-width: 640px)
+  and (orientation: landscape) {
+    .child_div {
+
+      height: 200px;
+    
+    }
+  } */
+   
+  /* For Mobile Phones Portrait or Landscape View */
+  /* @media screen and (max-device-width: 640px) {
+    .child_div{
+   
+      height: 200px;
+     
+    }
+  } */
+   
+  /* For iPhone 4 Portrait or Landscape View */
+  /* @media screen and (min-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .child_div {
+  
+      height: 75vh;
+     
+    }
+  } */
+   
+  /* For iPhone 5 Portrait or Landscape View */
+  /* @media (device-height: 568px) and (device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .child_div{
+      
+      height: 400px;
+      
+    }
+  } */
+   
+  /* For iPhone 6 and 6 plus Portrait or Landscape View */
+  /* @media (min-device-height: 667px) and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .child_div{
+     
+      height: 400px;
+      
+    }
+  } */
