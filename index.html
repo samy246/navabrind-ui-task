@@ -1,44 +1,40 @@
+
 <html>
+  <head>
 
-<head>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/045fa328a1.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-
-    <div class="parent_div">
-     
-         <div class="child_div">
-
-            <img src="music.svg" alt="img" id="music" />
-            <h2 id="child_divtitle">Order Summary</h2>
-            <div class="text">
-                <p id="content">You can now listen to millions of,audioboks,and podcasts on any device anywhere
-                    you like!</p>
-            </div>
-            <div id="price">
-                <div>
-                    <i class="fa-solid fa-music" id="circle"></i>
-                </div>
-
-                <div id="pricetag">
-                    <span id="anplan">Annual Plan </span>
-                    <span id="anplanrate">$59.99/year</span>
-
-                </div>
-                <div>
-                    <p id="changeplan">Change</p>
-                </div>
-
-
-            </div>
-            <div id="proceed">
-                <button class="button">Proceed to Payment</button>
-            </div>
-<div id="cancelorder">Cancel Order</div>
-        </div> 
+   
+  </head>
+  <body>
+    <div>
+      <div class="child_div">
+        <img
+          class="img"
+          src="music.svg"
+          alt=""
+          aria-hidden="true"
+        />
+        <h1 id="child_divtitle">Order Summary</h1>
+        <p class="info">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="plan-container">
+          <div>
+            <img class="plan-icon" src="icon-music.svg" alt="" />
+          </div>
+          <div class="plan-col">
+            <p class="plan-type">Annual Plan</p>
+            <p class="plan-price">$59.99/year</p>
+          </div>
+          <div>
+            <a class="plan-change-btn">Change</a>
+          </div>
+        </div>
+        <button class="payment-btn">Proceed to Payment</button>
+        <a class="cancel-btn">Cancel Order</a>
+      </div>
     </div>
-</body>
-
+ 
+  </body>
 </html>
