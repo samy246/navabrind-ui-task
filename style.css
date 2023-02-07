@@ -28,10 +28,11 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url('/images/pattern-background-desktop.svg');
+  background-image: url('pattern-background-desktop.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: var(--pale-blue);
+  background-size: 100% 49%;
 }
 
 button {
@@ -173,7 +174,7 @@ footer {
 @media (max-width: 24em) {
 
   body {
-    background-image: url('/images/pattern-background-mobile.svg');
+    background-image: url('pattern-background-mobile.svg');
   }
 
 
