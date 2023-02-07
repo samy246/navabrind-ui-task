@@ -152,23 +152,7 @@ a {
 
 
 
-footer {
-  position: absolute;
-  bottom: 0;
-  background-color: var(--white);
-  padding: .25em 1em;
-  border-radius: 1em;
-  box-shadow: 0 0 .5em hsl(224, 23%, 70%);
 
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: var(--bright-blue);
-}
 
 
 @media (max-width: 24em) {
